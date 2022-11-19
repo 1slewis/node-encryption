@@ -16,12 +16,16 @@ By default, local logs are turned off (as they are a security risk).
 
 ## How to run
 Just how you run normal node scripts.
+
 node encrypt.js
+
 node decrypt.js
 
 ## Basic customising
 Both scripts you can customise by choosing which file as input and output at runtime.
+
 node encrypt.js mySecret.txt encryptedSecret.json
+
 node decrypt.js encryptedSecret.json myDecryptedSecret.txt
 
 You can also disable checking of tampering by setting env.ifOveride to true (only in decrypt.js).
